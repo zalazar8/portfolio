@@ -1,6 +1,9 @@
 // import React from 'react'
 import './Portfolio.css'
-import miniatura from '../images/miniatura.png'
+import min1 from '../images/min1.jpg'
+import min2 from '../images/min2.jpg'
+import min3 from '../images/min3.jpg'
+import min4 from '../images/min4.jpg'
 
 function Portfolio() {
   return (
@@ -9,7 +12,7 @@ function Portfolio() {
         <div className="flex-container2">
             <div className="flex-item2">
               <div className='image-container'>
-                <img className='imagen' src='./src/images/min1.jpg' alt=""/>
+                <img className='imagen' src={min1} alt=""/>
                 <a href="https://zalazar8.github.io/medcac/">
                   <div className='image-overlay'>
                     <p className='image-text'>DEMO</p>
@@ -22,7 +25,7 @@ function Portfolio() {
             </div>
             <div className="flex-item2">
               <div className='image-container'>
-                <img className='imagen' src='./src/images/min2.jpg' alt=""/>
+                <img className='imagen' src={min2} alt=""/>
                 <a href="https://zalazar8.github.io/camping/">
                   <div className='image-overlay'>
                     <p className='image-text'>DEMO</p>
@@ -35,7 +38,7 @@ function Portfolio() {
             </div>
             <div className="flex-item2">
               <div className='image-container'>
-                <img className='imagen' src='./src/images/min3.jpg' alt=""/>
+                <img className='imagen' src={min3} alt=""/>
                 <a href="https://zalazar8.github.io/fotografia/">
                   <div className='image-overlay'>
                     <p className='image-text'>DEMO</p>
@@ -48,7 +51,7 @@ function Portfolio() {
             </div>
             <div className="flex-item2">
               <div className='image-container'>
-                <img className='imagen' src='./src/images/min4.jpg' alt=""/>
+                <img className='imagen' src={min4} alt=""/>
                 <a href="https://zalazar8.github.io/viajuy/">
                   <div className='image-overlay'>
                     <p className='image-text'>DEMO</p>
