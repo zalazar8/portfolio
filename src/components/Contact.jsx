@@ -22,7 +22,8 @@ function Contact() {
   };
 
   return (
-    <div id='contact' className='container-contact'>
+    <>
+    <div id='contacto' className='container-contact'>
         <div className='col-contact'>
             {/* <h1>otra mitad</h1> */}
             <div className="contact">
@@ -46,6 +47,10 @@ function Contact() {
         </Canvas>
       </div>
     </div>
+    <footer>
+      <small>&copy; 2023 Design by MOZ.ART - Todos los Derechos Reservados.</small>
+    </footer>
+    </>
   )
 }
 
