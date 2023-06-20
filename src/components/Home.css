@@ -1,0 +1,24 @@
+.datos {
+    display: flex;
+    height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #66e7e9;
+    color: #101010;
+    width: 100vw;
+    position: relative;
+    z-index: -3;
+}
+
+
+
+.vacio {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    background-color: #000;
+    /* overflow-y: scroll; */
+  }

@@ -1,0 +1,10 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #d9afd9; */
+  /* overflow-x: scroll; */
+  /* position: relative; */
+}
+::-webkit-scrollbar{
+  display: none;
+}
